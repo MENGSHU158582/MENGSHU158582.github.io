@@ -61,3 +61,22 @@
      width: 60%;
      margin-left: -30%;
  }
+.s1 .main{
+  position: absolute;
+  top: 30%;
+}
+.s1 .main img:nth-of-type(1){
+  width: 40%;
+ }
+
+.s1 .main img:nth-of-type(2){
+  width: 80%;
+}
+.si .main .img9{
+  background: url(../img/9.png);
+  height: 16px;
+  width: 42%;
+  margin: auto;
+  font-size: 12px;
+  background-size: 100% 100%;
+}
