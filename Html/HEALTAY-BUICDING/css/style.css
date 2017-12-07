@@ -1,0 +1,242 @@
+body,ul,li,h1,h2,h3,p{
+	margin:0;
+	padding:0;
+}
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+.header,.banner,.containt,.footer{
+	margin:0 auto;
+	width:934px;
+}
+.list{
+	list-style: none;
+}
+.textd{
+	text-decoration: none;
+}
+.float{
+	float: left;
+}
+/*--------------------通用样式--------------------*/
+/*--------------------header样式--------------------*/
+.header-inner{
+	background: url(../images/header-bg_02.jpg);
+}
+.logo{
+	margin: 31px 374px 0px 9px;
+}
+.table{
+	margin-top: 39px;
+	margin-right: 8px;
+}
+.search{
+	background: url(../images/login.gif) no-repeat;
+	margin-top: 34px;
+	width: 73px;
+	height: 34px;
+	font-size: 17px;
+	font-family: Raavi;
+	text-align: center;
+	line-height: 200%;
+}
+.nav{
+	padding-left: 320px;
+}
+.nav li{
+	padding:0 24px;
+	float: left;
+	font-size: 19px;
+	font-family: Raavi;
+	list-style: none;
+	line-height: 273.6842105263158%;
+}
+.nav li a{
+	text-decoration: none;
+	color: #3c3c3c;
+}
+.nav li a:hover{
+	color: #9e0404;
+}
+.nav li:hover{
+	background:white;
+	font-size: 19px;
+	font-family: Raavi;
+	line-height: 273.6842105263158%;
+}
+/*--------------------header样式--------------------*/
+/*--------------------banner样式--------------------*/
+.banner-inner{
+	background: url(../images/banner-bg_03.jpg);
+}
+.banner{
+	position: relative;
+}
+.banner-left{
+	background: url(../images/header-box.jpg);
+	width: 232px;
+	height: 413px;
+	position: absolute;
+	top:-52px;
+	padding-left: 37px;
+}
+.banner-left-text1,.banner-left-text2,.banner-left li{
+	font-family: 微软雅黑;
+	color: white;
+}
+.banner-left-text1{
+	font-size: 21PX;
+	margin-top: 31px;
+}
+.banner-left ul{
+	padding-top: 33px;
+}
+.banner-left li{
+	list-style-image: url(../images/arrow1.gif);
+	list-style-position: inside;
+	font-size: 14px;
+	line-height: 228.5714285714286%;
+}
+.banner-left li a{
+	color: white;
+}
+.banner-left-btn{
+	margin-top: 40px;
+	background: url(../images/banner-left-btn_03.jpg);
+	width: 116px;
+	height: 34px;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 13px;
+	font-family: 微软雅黑;
+	line-height: 261.5384615384615%;
+}
+.banner-center{
+	padding-left: 319px;
+	font-family: 微软雅黑;
+	padding-left: 319px;
+	width: 245px;
+	position: relative;
+	
+}
+.banner-center1{
+	color: #d60c0c;
+	font-size: 30px;
+	padding-top: 41px;
+}
+.banner-center2{
+	color: #4a4a4a;
+	font-size: 26px;
+}
+.banner-center3{
+	color:#919191; 
+	font-size:23px;
+}
+.banner-center4{
+	font-size: 14px;
+	color: #4a4a4a;
+	padding-top: 21px;
+	padding-bottom: 25px;
+	width: 172px;
+}
+.banner-center-btn{
+	background: url(../images/button.gif);
+	width: 137px;
+	height: 40px;
+	font-size: 13px;
+	line-height: 307.6923076923077%;
+	text-align: center;
+	color: white;
+	margin-bottom: 49px;
+}
+.banner-right{
+	width: 300px;
+	position: absolute;
+	left: 524px;
+	padding-top: 26px;
+}
+/*--------------------banner样式--------------------*/
+/*--------------------containt样式--------------------*/
+.containt-left-top{
+	font-family: 微软雅黑;
+	padding-bottom: 43px;
+}
+.containt-left-top p{
+	font-size: 28px;
+	color: #4a4a4a;
+	padding-top: 40px;
+	padding-bottom: 16px;
+}
+.containt-left-top li{
+	list-style-position: inside;
+	font-size: 14px;
+	list-style-image: url(../images/arrow2.gif);
+	line-height: 221.4285714285714%;
+}
+.containt-left-top li a{
+	color: #d60c0c;
+}
+.containt-left-bottom{
+	background: #f7f7f7;
+	width:269px;
+	padding-top: 37px;
+	padding-left: 40px;
+	font-family: 微软雅黑;
+	font-size: 14px;
+    margin-bottom: 50px;
+}
+.containt-left-bottom-text{
+	font-size: 28px;
+	color: #4a4a4a;
+	font-family: 微软雅黑;
+	padding-bottom: 22px;
+}
+labels{
+    width: 80px;
+    float: left;
+}
+.containt-left-bottom-btn{
+	background: url(../images/submit-bg.gif);
+	width: 79px;
+	height: 34px;
+	text-decoration:center;
+	text-align: center;
+	line-height: 200%;
+	font-size: 17px;
+	color: white;
+	font-family: 微软雅黑;
+	margin-bottom: 37px;
+    margin-top: 5px;
+}
+.checkbox{
+	margin-left: 80px;
+    margin-top: 5px;
+}
+input{
+	margin-bottom: 5px;
+}
+/*--------------------containt样式--------------------*/
+/*--------------------footer样式--------------------*/
+.footer-inner{
+	background: url(../images/footer-bg_03.png);
+}
+.footer-text1 a,.footer-text2 a{
+	color: #b40303;
+}
+.footer-text1,.footer-text2{
+	font-family: 微软雅黑;
+	font-size: 15px;
+}
+.footer-text1{
+	padding-left: 397px;
+	padding-top: 45px;
+	
+}
+.footer-text2{
+	padding-left: 420px;
+	padding-bottom: 47px;
+}
+/*--------------------footer样式--------------------*/

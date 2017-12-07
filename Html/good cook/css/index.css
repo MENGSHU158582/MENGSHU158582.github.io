@@ -1,0 +1,236 @@
+/*------------通用样式-----------*/
+body,ul,li,p,h1,h2,h3{
+	margin:0px;
+	padding: 0px;
+}
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+	clear:both;
+}
+.header,.nav,.containt,.footer{
+	width: 980px;
+	margin:0 auto;
+}
+.botton li,.nav li,.containt1 img,.containt2 img,.containt4,.containt5,.containt6,.containt7,.containt-bottom img{
+	float: left;
+}
+.botton li,.nav li,.containt3{
+	list-style: none;
+}
+.botton2,.nav,.containt  a,.footer a{
+	text-decoration: none;
+}
+/*------------通用样式-----------*/
+/*------------warper样式-----------*/
+.warper{
+	background: url(../images/bg-img1.jpg);
+	width: 100%;
+	background-attachment: fixed;
+}
+/*------------warper样式-----------*/
+/*------------header样式-----------*/
+.header-inner{
+	background: url(../images/logo-bg.png);
+	height: 124px;
+}
+/*---------------------------logo-------------------------------*/
+.logo{
+	padding:30px 0px 0px 40px;
+}
+.logo img{
+	width: 100%;
+	width: 240px;
+	height: 69px；
+}
+/*-----------------------------logo--------------------------------*/
+/*-------------------------------botton----------------------------*/
+.botton1{
+	color:#ffffff;
+	font-family: Cambria Math;
+	font-size: 24px;
+	padding-left: 422px;
+	padding-top: 52px;
+}
+.botton2 a{
+	color:#ffffff;
+}
+.botton2,.botton3,.botton4{
+	margin-top:44px;
+	font-size: 18px;
+	
+}
+.botton2{
+	background: url(../images/botton1.gif) no-repeat;
+	width: 35px;
+	height: 35px;
+	margin-left: 10px;
+	text-align:center; 
+	padding-top: 8px;
+	
+}
+.botton3,.botton4{
+	background: url(../images/botton2.gif) no-repeat;
+	width: 35px;
+	height: 35px;
+	margin-left: 5px;
+	text-align:center;
+	padding-top: 8px;
+}
+/*-------------------------------botton----------------------------*/
+/*--------------------------------header样式----------------------*/
+/*-----------------------------------nav样式-------------------------*/
+.nav-inner{
+	background: url(../images/nav-bg_03.gif);
+	border: 1px #fff solid;
+}
+
+.nav li{
+	color:#000; 
+	font-size:24px; 
+	font-family:Cambria Math;
+	border-left: 1px #dfdfdf solid;
+	padding-left:20px;
+	padding-right: 20px;
+	line-height: 241.6666666666667%;
+
+} 
+
+.nav-li{
+	border-right: 1px #dfdfdf solid;
+}	
+
+.nav{
+	color: #000000;
+}
+/*---------------------------------nav样式-------------------------------*/
+/*------------containt样式-----------*/
+.containt{
+	height: 948px;
+	margin-top: 20px;
+	background: url(../images/containt-bg_09.png);
+}
+.containt1 img{
+	margin-left: 40px;
+	margin-top:30px;
+}
+.containt2 img{
+	margin-left: 33px;
+	margin-top: 55px;
+}
+.containt3{
+	width: 239px;
+	height:138px;
+	margin-left: 48px;
+	font-family: Cambria Math;
+	margin-top: 23px;
+	font-size: 18px;
+	line-height:152.3809523809524%;
+	float: left;
+}
+.containt4{
+	background: url(../images/btn_07.gif);
+	width: 138px;
+	height:39px;
+	font-size: 18px;
+	color: #d36c2e;
+	text-align:center;
+	margin-left: 49px; 
+	margin-top: 38px;
+	line-height: 237.5%;
+}
+/*------------bottom----------------------*/
+.containt5,.containt6,.containt7{
+	font-family: Cambria Math;
+}
+.containt-center{
+	background: url(../images/containt-cottom-bg_07.gif);
+	margin-top: 30px;
+	height: 240px;
+}
+.containt5 h2{
+	margin-left: 39px;
+	width: 206px;
+	height: 25px;
+}
+.containt p{
+	letter-spacing: -1px;
+	padding-bottom:25px;
+	font-family: Cambria Math;
+}
+.containt6 p,.containt7 p{
+	width: 270px;
+} 
+.containt5 img,.containt6 img,.containt7 img{
+	padding-bottom:25px;
+}
+.containt5 h2,.containt6 h2,.containt7 h2{
+	padding-top: 29px;
+	padding-bottom: 13px;
+}
+.containt6 img,.containt7 img{
+	padding-left: 30px;
+}
+.containt6 h2,.containt7 h2{
+	padding-left: 30px;
+}
+.containt5 p{
+	width: 280px;
+	letter-spacing: -1px;
+	padding-bottom:25px;
+}
+.containt5 img{
+	padding-left: 38px;
+	padding-bottom:25px;
+
+}
+.containt a{
+	color: #d87200;
+}
+.containt p{
+	padding-left: 33px;
+}
+.containt8 img{
+	margin-top: 32px;
+	margin-left:39px;
+	float: left;
+	margin-bottom: 15px;
+}
+.containt-bottom p{
+width: 592px;
+}
+.containt9{
+	margin-left: 68px;
+	margin-top: 25px;
+}
+.bottom-left,.bottom-right{
+	float: left;
+}
+.containt li{
+	font-family: Cambria Math;
+	list-style-image:  url(../images/fuhao_03.png);
+	list-style-position: inside;
+	margin-left: 39px;
+}
+/*------------containt样式-----------*/
+/*------------footer样式-----------*/
+.footer-inner{
+	background: url(../images/logo-bg.png);
+	height: 105px;
+}
+.footer p{
+	color: white;
+	font-family:Cambria Math;
+	margin-left: 40px;
+}
+.footer a{
+	color: #ca4b00;
+}
+.footer1{
+	padding-top: 30px;
+	padding-bottom: 13px;
+}
+
+
+/*------------footer样式-----------*/

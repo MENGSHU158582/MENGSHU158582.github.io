@@ -1,0 +1,238 @@
+body,h1,h2,p,ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 1rem;
+}
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:table;  
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.warpar{
+	width: 100%;
+	background-color: #fff;
+}
+.login,.header,.banner,.containt,.footer{
+	width: 68.75%;
+	margin: 0px auto;
+}
+.login li,.header ul li,.header ul,.logo,.jiemao-img li,.jiemao-text1 li,.jiemao-text2 li,.meifen-img li,.meifen-text1 li,.meifen-text2 li,.yanxian-img li,.yanxian-text1 li,.yanxian-text2 li{
+	float: left;
+}
+/*--------通用样式-------*/
+
+
+/*--------login-inner样式-------*/
+.login-inner{
+	background-color: #f43859;
+}
+.login ul{
+	width: 15.34246575342466%;
+	margin-left: 82.46575342465753%;
+	padding: 4.3125rem 0rem 0.6875rem 0rem;
+}
+.login li a{
+	font-family: 幼圆;
+	font-size: 1.125rem;
+	color: #fff;
+}
+.login li{
+	width:32.53892215568862%;
+}
+/*--------login-inner样式-------*/
+
+/*--------header-inner样式-------*/
+.logo{
+	width: 17.26027397260274%;
+	margin: 2.9625rem 37.43055374429224% 2.5rem 42.05693296602388%; 
+}
+.logo img{
+	width: 100%;
+}
+.header ul{
+	width: 45.31050228310502%;
+	margin-top: 2rem;
+}
+.header ul li a{
+	font-family: 幼圆;
+	font-size: 1.125rem;
+	color: #000;
+	display: block;
+}
+.header ul li a:hover{
+	color: red;
+}
+.btn1,.btn2,.btn3{
+	margin-right: 6.04914933837429%;
+}
+/*--------header-inner样式-------*/
+
+/*--------banner-inner样式-------*/
+.banner-inner{
+	position: relative;
+}
+.banner1{
+	width: 100%;
+}
+.input1{
+	width: 9.5%;
+	height: 3.1875rem;
+	background-color: #e6e8ef;
+	font-family: 幼圆;
+	font-size: 1.875rem;
+	padding: 0px;
+	border: 3px #494a4e solid;
+	border-radius: 10px;
+	position: absolute;
+	top:18.3125rem;
+	left: 34.0625%;
+}
+/*--------banner-inner样式-------*/
+
+/*--------containt-inner样式-------*/
+.img{
+	width: 100%;
+	margin: 5.0625rem 0rem 0rem 0rem;
+}
+.jiemao-img,.jiemao-text1,.jiemao-text2,.meifen-img,.meifen-text1,.meifen-text2,.yanxian-img,.yanxian-text1,.yanxian-text2{
+	width: 100%;
+}
+.jiemao-img li,.meifen-img li,.yanxian-img li{
+	width: 22.09944751381215%;
+	margin-right: 1.76243093922652%;
+	margin-top: 3.125rem;
+}
+.jiemao-img img,.meifen-img img,.yanxian-img img{
+	width: 100%;
+}
+.jiemao-text1,.meifen-text1,.yanxian-text1{
+	margin-top: 1.4375rem;
+}
+.jiemao-text1 li a,.meifen-text1 li a,.meifen-text2 li a,.yanxian-text1 li a,.yanxian-text2 li a{
+	font-family: 幼圆;
+	font-size: 1rem;
+	color: #838181;
+}
+.jiemao-text1 li,.meifen-text1 li,.yanxian-text1 li{
+	width: 20%;
+}
+.btn11,.btn12,.btn19{
+	margin-right: 4.16243093922652%;
+}
+.btn13,.btn14,.btn15{
+	margin-right: 4.16243093922652%;
+}
+.btn16,.btn17,.btn18{
+	margin-right: 4.16243093922652%;
+}
+.jiemao-text2,.meifen-text2,.yanxian-text2{
+	margin-top: 0.875rem;
+}
+.jiemao-text2 li,.meifen-text2 li,.yanxian-text2 li{
+	width: 18%;
+}
+.jiemao-text2 li,.meifen-text2 li,.yanxian-text2 li{
+	margin-right: 6.56740331491713%;
+}
+.jiemao-text2 li a{
+	font-family: 幼圆;
+	font-size: 1.25rem;
+	color: #838181;
+}
+/*--------containt-inner样式-------*/
+
+/*--------footer-inner样式-------*/
+.footer-inner{
+	background-color: #f43859;
+	margin-top: 6.925rem;
+}
+.nav1{
+	width: 9.04109589041096%;
+	margin-left: 5.02283105022831%;
+	margin-top: 3.125rem;
+}
+.btn5,.btn6{
+	margin-bottom: 1.875rem;
+}
+.btn5 a,.btn8 a{
+	font-family: 幼圆;
+	font-size: 1.5rem;
+	color: #fff;
+}
+.btn8,.btn9{
+	margin-bottom: 1.875rem;
+}
+.btn6 a,.btn7 a,.btn9 a,.btn10 a{
+	font-family: 幼圆;
+	font-size: 18px;
+	color: #fcd9dd;
+}
+.nav2{
+	width: 43.74429223744292%;
+	margin-left:14.337899543379%;
+	margin-right: 16.89497716894977%;
+	margin-top: 3.125rem;
+}
+.nav3{
+	margin-right: 3.01369863013699%;
+}
+.nav3 li,.nav4 li{
+	margin-bottom: 2.125rem;
+}
+.nav3{
+	width:1.7118310502283105%;
+	margin-top: 4.375rem;
+}
+.nav4{
+	width:2.73972602739726%;
+	margin-top: 4.375rem;
+}
+.nav3 li,.nav3 img{
+	width: 100%;
+}
+.nav4 li,.nav4 img{
+	width: 100%;
+}
+.nav1,.nav2,.nav3,.nav4{
+	float: left;
+}
+.footer-bg{
+	background-image: url(../images/footer-bg_20.png);
+	padding: 0.8125rem;
+	margin-top: 6rem;
+}
+.footer-bg p{
+	font-family: 幼圆;
+	font-size: 18px;
+	color: #fff;
+}
+/*--------footer-inner样式-------*/
+
+
+.jiemao-img li:hover{
+	border-left: 2px #000 solid;
+	border-top: 2px #000 solid;
+	border-right: 2px #000 solid;
+	border-bottom: 2px #000 solid;
+}
+.meifen-img li:hover{
+	border-left: 2px #000 solid;
+	border-top: 2px #000 solid;
+	border-right: 2px #000 solid;
+	border-bottom: 2px #000 solid;
+}
+.yanxian-img li:hover{
+	border-left: 2px #000 solid;
+	border-top: 2px #000 solid;
+	border-right: 2px #000 solid;
+	border-bottom: 2px #000 solid;
+}

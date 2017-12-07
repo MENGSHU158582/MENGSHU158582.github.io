@@ -1,0 +1,155 @@
+/*-----------通用样式------------*/
+body,ul,li,p,h1,h2,h3{
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+body{
+	background-color: #000000;
+	padding-bottom: 50px;
+}
+.logo,.nav,.nav li,.banner_left,.banner_center,.banner_right,.footer_bottom img{
+	float: left;
+}
+.header_inner,.banner_inner,.containt_inner,.footer_inner{
+	width: 100%;
+}
+.warper{
+	background-image:url(../images/body-bg.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+}
+.header,.banner,.containt,.footer{
+	width: 960px;
+	margin: 0 auto;
+	background-image: url(../images/headeer_bg_03.png);
+}
+.header_inner{
+	padding-top: 50px;
+}
+/*-----------通用样式------------*/
+/*-----------header样式------------*/
+.logo{
+	width: 203px;
+	margin: 25px 137px 16px 40px;
+}
+.nav{
+	width: 527px;
+	margin: 41px 0px 12px 0px;
+}
+.nav li{
+	list-style-type: none;
+	font-family: Bernard MT Condensed;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 280%;
+	text-align: center;
+}
+.nav li a{
+	text-decoration: none;
+	display: block;
+}
+.nav li a:hover{
+	background-color: #333333;
+	color: #ffffff;
+}
+.btn1{
+	width: 52px;
+}
+.btn2{
+	width: 72px;
+}
+.btn3{
+	width: 81px;
+}
+.btn4{
+	width: 98px;
+}
+.btn5{
+	width: 126px;
+}
+.btn6{
+	width: 98px;
+}
+/*-----------header样式------------*/
+
+
+/*-----------banner样式------------*/
+.banner_left{
+	width: 30px;
+	height: 62px;
+	margin: 250px 23px 82px 50px;
+}
+.banner_right{
+	width: 30px;
+	height: 62px;
+	margin: 250px 50px 82px 23px;
+}
+.banner_center{
+	width: 734px;
+}
+.banner_center span{
+	color: #ead909;
+}
+.text_top{
+	font-family:Cambria Math;
+	font-size: 50px;
+	letter-spacing: -0.5px;
+	margin-top: 221px;
+	text-align: center;
+	color: #ffffff;
+}
+.text_bottom{
+	font-family:Cambria Math;
+	font-size: 82px;
+	letter-spacing: -6.5px;
+	color: #ffffff;
+}
+/*-----------banner样式------------*/
+
+
+/*-----------containt样式------------*/
+/*-----------containt样式------------*/
+
+
+/*-----------footer样式------------*/
+.footer{
+	padding-bottom: 10px;
+}
+.main{
+	background-color: #000000;
+	width: 940px;
+	height: 156px;
+	margin-left: 10px;
+}
+.footer_top p{
+	color: #7f7f7f;
+}
+.footer_top span{
+	color: #ffffff;
+}
+.txt_top,.txt_bottom{
+	font-family:Lucida Fax;
+	font-size: 12px;
+	line-height: 208.3333333333333%;
+}
+.txt_top{
+	width: 790px;
+	padding: 36px 0px 0px 40px;
+}
+.txt_bottom{
+	width: 536px;
+	padding: 0px 0px 0px 40px;
+}
+.footer_bottom{
+	margin: 0px 30px 0px 808px;
+}
+.footer_bottom img{
+	margin-right: 10px;
+}
+/*-----------footer样式------------*/

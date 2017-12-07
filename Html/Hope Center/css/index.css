@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*通用样式*/
+body,ul,li,h1,h2,h3,h4,p{
+	margin:0px;
+	padding:0px;
+	}
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear:both;
+	}
+.navbar,.header,.containt,.footer{
+	width:973px;
+	margin:0 auto;}
+/*---------------字体区----------------*/
+	/*------字体-----*/
+.nav,.sidebar1 h2,.sidebar2 h2,.sidebar3 h2{
+	font-family:Candara;
+	}
+.slogn h1,.slogn h2,.slogn h3,.slogn h4{
+	font-family:"Trebuchet MS";
+	}
+.mainleft h1,.mainleft p,.mainright p,.sidebar h1,
+.sidebar1 p,.sidebar2 p,.sidebar3 p,.readmore-btn{
+	font-family:Tahoma;}
+.footer p{
+	font-family:Mangal;
+	}
+	/*-----字色-----*/
+.nav li a,.slogn h1,.slogn h2,.mainright p,.readmore-btn{
+	color:#FFF;
+	}
+.slogn h3,.slogn h4{
+	color:#c4f5ff;
+	}
+.mainleft h1,.sidebar h1{
+	color:#09a1dd;
+	}
+.sidebar1 h2,.sidebar2 h2,.sidebar3 h2{
+	color:#3f3f3f;
+	}
+.footer a{
+	color:#fffdf7;
+	}
+	/*-----字号-----*/
+.mainleft h1,.sidebar h1{
+	font-size:28px;
+	}
+.mainleft p,.footer p{
+	font-size:12px;
+	}
+.loginbar1 p,.line1{
+	font-size: 23px;
+}
+.line2{
+	font-size: 18px;
+}
+.sidebar1 h2,.sidebar2 h2,.sidebar3 h2{
+	font-size:20px;
+	}
+.sidebar1 p,.sidebar2 p,.sidebar3 p,.readmore-btn{
+	font-size:14px;
+	}
+/*---------------字体区----------------*/
+
+
+/*---------------浮动设置区----------------*/
+.login,.login li,.logo,.nav,.slogn,.mainleft,.mainleft img,.mainright,
+.mainright img,.mainright p,.sidebar-bg1,.sidebar-bg2,.sidebar-bg3{
+	float:left;
+	}
+/*---------------浮动设置区----------------*/
+
+/*---------------其他设置区----------------*/
+li{
+	list-style:none;
+	}
+.nav a,.login a,.mainright a,.readmore-btn{
+	text-decoration:none;
+	display:block;
+	}
+.mainleft a,.sidebar .txtlink{
+	color:#09a1dd;
+	}
+/*---------------其他设置区----------------*/
+/*通用样式*/
+
+
+/*--------------------------------header-inner部分*/
+.header-inner{
+	height:488px;
+	background:url(../images/1page-header-bg.jpg) no-repeat center;
+	}
+/*-------------------------------navbar开始*/
+.logo{
+	margin:20px 85px 0 48px;;
+	}
+.login{
+	margin:42px 0 0 0;
+	}
+.login li a{
+	width:63px;
+	height:17px;
+	text-align:center;
+	padding:4px 0 0 0;
+	}
+.login li .btn1,.login li .btn2{
+	border-right:1px #cccccc dashed;
+	}
+/*---------------------------------navbar结束*/
+
+/*----------------------------nav开始*/
+.nav{
+	margin:60px 0 0 7px;
+	}
+.nav li a{
+	font-size:21PX;
+	width:195px;
+	height:30px;
+	padding:0 0 0 51px;
+	line-height:1.4285714;
+	}
+.nav li .btn1{
+	background:#60d5ef;
+	border-bottom-right-radius:7px;
+	border-top-right-radius:7px;
+		}
+.slogn{
+	margin:94px 0 0 0;
+	}
+.slogn h2{
+	font-size:36px;
+	margin:0 0 0 16px;
+	}
+.slogn h3{
+	font-size:24px;
+	margin:0 0 0 51px;
+	}
+.slogn h4{
+	margin:0 0 0 52px;
+	}
+.nav a:hover{
+	color: #5e777e;
+}
+/*----------------------------nav结束*/
+/*-----------------------------------header-inner部分*/
+
+/*-----------------------------------containt部分*/
+/*----------------------------mainleft开始*/
+.mainleft{
+	margin:0 65px; 0 50px;
+	width:548px;
+	position:absolute;
+	top:436px;
+	}
+.title1{
+	margin:0 0 18px 0;
+	}
+.mainleft img{
+	margin:14px 16px  0 0;
+	}
+.mainleft p{
+	letter-spacing:0.5px;
+	text-align:left;
+	line-height:1.6666666666em;
+	}
+.text2{
+	padding:23px 0 30px 0;
+	}
+.mainleft span{
+	font-weight:600;
+	}
+/*----------------------------mainleft结束*/
+/*----------------------------mainright开始*/
+.mainright{
+	margin:0 0 0 652px;
+	}
+.loginbar-bg{
+	width:262px;
+	height:112px;
+	background:#eeeeee;
+	border:1px solid #f9f9f9;
+	border-radius:11px;
+	}
+.loginbar1,.loginbar2{
+	width:254px;
+	height:104px;
+	border:#fffffe 3px solid;
+	border-radius:8px;
+	}
+.loginbar1:hover,.loginbar2:hover{
+	width:255px;
+	height:106px;
+	border:#fffffe 3px dashed;
+	border-radius:8px;
+	}
+.loginbar1{
+	background-image:url(../images/loginbar_1_bg_03.gif);
+	margin:1px 0 0 1px;
+	}
+.loginbar2{
+	background-image:url(../images/loginbar_2_bg_03.gif);
+	margin:1px 0 0 0;
+	}
+.loginbar1 img{
+	margin: 7px 0 0 12px;
+	}
+.loginbar2 img{
+	margin: 10px 0 0 17px;
+	}
+.loginbar1 p{
+	width: 130px;
+	margin: 24px 0 0 6px;
+	}
+.line1{
+	margin:25px 0 0 1px;
+	}
+/*----------------------------mainright结束*/
+/*----------------------------sidebar开始*/
+.sidebar{
+	margin:0 0 0 50px;
+	}
+.sidebar h1{
+	margin:51px 0 19px 0;
+	}
+.sidebar-bg1,.sidebar-bg2,.sidebar-bg3{
+	background-color:#f7f7f7;
+	width:254px;
+	height:218px;
+	border-radius:8px;
+	}
+.sidebar1,.sidebar2,.sidebar3{
+	background:#fafafa;
+	width:246px;
+	height:210px;
+	border:3px #FFF solid;
+	border-radius:6px;
+	margin:1px 0 0 1px;
+	}
+.sidebar-bg2{
+	margin:0 49px;
+	} 
+.sidebar1 h2,.sidebar2 h2,.sidebar3 h2{
+	margin:21px 0 0 26px;
+	}
+.sidebar1 p,.sidebar2 p,.sidebar3 p{
+	margin:11px 29px 21px 26px;
+	letter-spacing:1px;
+	}
+.readmore-btn-bg{
+	width:118px;
+	height:42px;
+	background:#e9e9e9;
+	border-radius:8px;
+	margin:0 0 0 26px;
+	}
+.readmore-btn{
+	width:110px;
+	height:34px;
+	background:#19bee8;
+	border:3px #FFF solid;
+	border-radius:9px;
+	margin:1px 0 0 1px;
+	text-align:center;
+	line-height:2.4285714em;
+	}
+.readmore-btn:hover{
+	background:#009;
+	}
+.sidebar img{
+	position:absolute;
+	top:949px;
+	margin-left:164px;
+	}	
+/*----------------------------sidebar结束*/
+/*-----------------------------------containt部分*/
+/*-----------------------------------footer部分*/
+.footer-bg{
+	margin:217px auto 15px auto;
+	background:#f2f2f2;
+	height:104px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	}
+.footer{
+	margin:10px auto 0 auto;
+	height:94px;
+	background:#0da8e0;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	}
+.footer p{
+	text-align:center;
+	}
+.footer1{
+		margin:26px 0 0 0;
+	}
+/*----------------------------------footer部分*/
+
+
+

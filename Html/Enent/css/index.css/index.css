@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------通用样式-------*/
+body,li,ul,p,h1,h2,h3{
+	margin:0px;
+	padding:0px;
+	}
+.login,.header,.containt,.footer{
+	margin:0 auto;
+	width:933px;
+	}
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:table;
+	clear:both;
+	}
+a{
+	text-decoration:none;
+	color: #FFF;
+	}
+	/*---去除下划线----*/
+	
+li{
+	list-style:none;}
+.nav li{
+	float:left;
+	}
+	/*---去除列表符号----*/
+	
+/*---------通用样式-------*/
+
+/*---------login样式-------*/
+.login-inner{
+	background:url(../../images/bg/login-bg_02.gif);
+	width:100%;
+	height:26px;
+	}
+
+.login li{
+	line-height:162.5%;
+	float:right;
+	background:url(../../images/images/logo_03_03.gif) right no-repeat;
+	}
+.login-btn{
+	width:54px;
+	padding-right:16px;
+	}
+.resister-btn{
+	padding-left:12px;
+	padding-right:14px;
+	}
+.resister-btn{
+	width:72px;
+	}
+.login li a .nav li a{
+	color:#fffe9;
+	font:Kartika 16px;
+	}
+/*--------login样式-------*/
+/*---------header-------*/
+.header-inner{
+	height:140px;
+	background:url(../../images/bg/logo_bg.gif);
+	border-top:1px #FFF dashed;
+	border-bottom:1px #FFFFFF dashed;
+	/*----添加虚线---*/
+	}
+.logo{
+	margin:37px 704px 28px 30px;
+}
+/*---------header-------*/
+/*---------contain------*/
+.containt{
+	padding-bottom:56px;
+	}
+.containt-inner{
+	background:#f2efdc;
+	width:100%;
+	}
+.nav{
+	background-color:#FFF;
+	margin-bottom:10px;}
+.nav li{
+	line-height:206.25%;
+	text-align:center;
+	width:131px;
+	}
+.btn1{
+	background:#000;
+	}
+.nav.btn1,.nav.btn6{
+	width:131px;
+	}
+.btn2,.btn3,.btn4,.btn5{
+	width:131px;
+	border-right:1px #9ea095 dashed;
+	}
+.nav li a:hover{
+	color:#FFF;
+	background:#2f2a27;
+	width:131px;
+	line-height:206.25%;
+	display:block;
+}
+.nav.btn1 a{
+	background:#FFF;
+	padding-left:72px;
+	}
+.nav .btn2 a,.nav .btn3 a,.nav .btn4 a,.nav .btn5 a,.nav .btn6 a{
+	color:#4d2a27;
+	background:#FFF;
+}
+
+/*---------contain------*/
+.main{
+	width:842px;
+	margin-left:54px;
+	}
+.main h1,.text-btn a{
+	color:#b90000;
+	font-family:Trebuchet MS;
+	font-weight:500;
+	}
+.main .text-btn{ text-align:right;}
+.main span{ font-weight:700}
+.main-top{
+	border-bottom:dashed 1px #999999;
+	padding-bottom:17px;
+	}
+.main-bottom{
+	margin-top:17px;
+	}
+.main-top h1{
+		padding-bottom:20px;
+		padding-top:20px;
+		font:Euphemia;
+		font-size:30px;
+	}
+.main h2{
+	background:#FFF;
+	height:26px;
+	width:210px;
+	font-size:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+p{
+	padding-top:20px;
+	font:Vani 18px #6f6c59;	
+	}
+.sidebar img{
+	margin:16px 17px 0px 40px;
+	float:left;
+	}
+.sidebar h1{
+	font-family:Euphemia;
+	font-size:30px;
+	color:#df011a;
+	margin-top:20px;
+	}
+.sidebar h2{
+	font:Euphemia;
+	font-size:18px;
+	color:#635962;
+	padding-bottom:10px;
+	border-bottom:dashed 1px #635962;
+	width:354px;
+	}
+.sidebar li{
+	margin:20px 0px 20px 15px;
+	color:#464843;
+	background:url(../../images/images/Business-Eventsb-img_32.gif) no-repeat;
+	padding-left:100px;
+	}
+.sidebar-right{
+	background:url(../../images/bg/sider-bg_32.gif);
+	margin:55px 6px 0px 6px;
+	border:#d8d7c3 solid 2px;
+	}
+.sidebar-left,.sidebar-right{
+	background:url(../../images/bg/sider-bg_32.gif);
+	width:410px;
+	height:336px;
+	float:left;
+	margin:55px 6px 0px 6px;
+	border:#d8d7c3 solid 2px;
+	}
+/*---------footer------*/
+.footer-inner{
+	width:100%;
+	height:197px;
+	background:url(../../images/bg/footer-bg_08.gif);
+	font-size:18px;
+	}
+.footer ul{
+	margin-left:150px;
+	}
+.footer{
+	padding-top:45px;
+	}
+.footer ul li{
+	float:left;
+	padding-right:14px;
+	padding-left:14px;
+	font:#FFF 18px;
+	border-right:solid 1px #FFFFFF;
+	
+	}
+.footer-center{
+	font-size:14px;
+	padding-left:145px;
+	color:#FFF;
+	}
+	
+.img{
+	padding-left:354px;
+	padding-bottom:5px;
+	padding-top:14px;
+	}
+.bottom{
+	color:#FFF;
+	padding-left:350px;
+	font-size:14px;
+	}
+/*---------footer------*/

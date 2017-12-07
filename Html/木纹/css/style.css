@@ -1,0 +1,191 @@
+body,ul,li,h1,h2,h3,p{
+	padding: 0;
+	margin:0;
+}
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+	clear:both;
+}
+.warper{
+	background: url(../images/bg.gif);
+	width: 100%;
+}
+.header,.banner,.containt,.footer{
+	margin:0 auto;
+	width: 937px;
+}
+.nav li{
+	list-style: none;
+}
+/*------------------tongyong-----------*/
+/*------------------header-----------*/
+
+.logo{
+	margin:82px 183px 0 0;
+	float: left;
+	width: 330px;
+}
+.nav{
+	float: left;
+	margin-top: 114px;
+}
+.nav li{
+	float: left;
+	font-size: 23px;
+	font-family: Gadugi;
+	font-weight: bold;
+	color: #703a13;
+	margin-right: 26px;
+
+}
+/*------------------header-----------*/
+/*------------------banner-----------*/
+.banner{
+	background: url(../images/banner-bg_03.png);
+	position: relative;
+}
+.banner-bar{
+	left:930px;
+	position: absolute;
+	top:20px;
+}
+.banner-left{
+	margin-left: 51px;
+	font-family: Gautami;
+	width: 260px;
+	float: left;
+}
+h1{
+	font-size: 30px;
+	color: white;
+	padding-top: 28px;
+}
+.banner-left p{
+	line-height: 100%;
+	font-size: 14px;
+	padding-bottom: 20px;
+	color: #ab9283;
+}
+.banner-right-top{
+	background: url(../images/banner-right-top-bg_03.gif);
+	position: absolute;
+	top:-20px;
+	left: 430px;
+}
+.banner-right{
+	float: left;
+	margin-top: 45px;
+	margin-left: 108px;
+}
+.banner-right-top .p{
+	padding-left: 280px; 
+	font-family: Gautami;
+	color: white;
+	font-size: 12px;
+	margin-top: 15px;
+}
+.Brown{
+	margin-left: 19px;
+	font-size: 30px;
+	font-family: Gautami;
+	font-weight: bold;
+	float: left;
+	margin-top:-20px; 
+}
+.h3{
+	float: left;
+	font-family: Gautami;
+	font-size: 12px;
+	line-height: 100%;
+	margin-left: 84px;
+	margin-right: 18px;
+	color: white;
+	margin-top: -20px;
+
+}
+.banner-right-bottom{
+	float: left;
+	position: absolute;
+	left: 430px;
+	top:46px;
+	
+}
+
+/*------------------banner-----------*/
+/*------------------containt-----------*/
+.containt-top{
+	background: #dadad8;
+
+}
+.containt-top-1,.containt-top-3{
+	margin-left: 50px;
+	margin-top: 70px;
+	float: left;
+}
+.containt-top-2{
+	width: 270px;
+	float: left;
+	margin-left: 20px;
+}
+h4{
+	font-size: 25px;
+	color: #4e4d4a;
+	font-family: Candara;
+}
+.containt-top-2 p,.containt-top-4 p{
+	font-size: 14px;
+	font-family: Candara;
+	margin-top: -20px;
+
+}
+h2{
+	font-size: 14px;
+	font-family: Candara;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.containt-top-4{
+	width: 310px;
+	float: left;
+	margin-left: 26px;
+}
+.containt-center,.containt-bottom{
+	background: white;
+	padding-left: 65px;
+
+}
+.containt-bottom{
+	padding-bottom: 50px;
+}
+.containt-center h5{
+	font-size: 25px;
+	color: #4e4d4a;
+	font-family: Candara;
+}
+.containt-center p{
+	font-size: 14px;
+	font-family: Candara;
+	margin-bottom: 63px;
+	margin-right: 70px;
+}
+.containt-bottom{
+	padding-left: 65px;
+}
+.img-containt-bottom img{
+	margin-left: 260px;
+	margin-top: 30px;
+}
+/*------------------containt-----------*/
+/*------------------footer-----------*/
+.footer p{
+	color: #bab4b3;
+	font-family: Candara;
+	margin-left: 300px;
+	margin-top:20px;
+	font-size:  14px;
+	margin-bottom: 50px;
+	
+}
+/*------------------footer-----------*/

@@ -1,0 +1,120 @@
+/*---------通用样式---------*/
+body,ul,li,h1,h2,h3,p{
+	margin:0;
+	padding:0;
+}
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+.header,.containt,.banner,.footer{
+	margin: 0 auto;
+	width: 960px;
+}
+.btn li,.footer123 li{
+	list-style: none;
+}
+.btn a{
+	text-decoration: none;
+}
+.header,.banner,.containt,.footer{
+	background: url(../images/bg_03.png);
+}
+.logo,.btn li,.btn,.footer123,.footer123 li,.footer p{
+	float: left;
+}
+/*---------通用样式---------*/
+.warper{
+	background: url(../images/body-bg.jpg) no-repeat;
+	padding-top: 50px;
+}
+body{
+	background: #000;
+}
+/*---------header样式---------*/
+.logo{
+	padding-left: 50px;
+	padding-top: 25px;
+	width: 203px;
+	height: 49px;
+	padding-bottom:16px;
+}
+.btn{
+	font-size: 18px;
+	text-align: center;
+	width: 521px;
+	margin-left: 103px;
+	padding-top: 41px;
+
+}
+.btn1 a,.btn5 a,.btn2 a,.btn3 a,.btn4 a,.btn6 a{
+	color: #000;
+	padding: 0 8px;
+	}
+.btn li a:hover{
+	background-color: #000;
+	color: #fff;
+	display: block;
+}
+.btn li{
+	line-height: 225%
+}
+.btn1 a{
+	color: #000;
+}
+.banner-bg{
+	color: #fff;
+}
+.banner-left{
+	float: left;
+	margin: 276px 23px 0px 70px;
+}
+.banner-right{
+	float: left;
+	margin-left: 23px;
+}
+.banner-1,.banner-2{
+	float: left;
+}
+.banner-1{
+	font-size: 48px;
+	letter-spacing: -1px;
+	padding-left: 132px;
+	padding-top: 221px;
+}
+.banner-2{
+	letter-spacing: -4px;
+	font-size: 84px;
+}
+/*--------heaer样式---------*/
+/*---------footer样式---------*/
+.footer-bg{
+	background: #000;
+	width: 940px;
+	height: 156px;
+	margin: 0 10px;
+}
+.footer-bg p{
+	color: #7f7f7f;
+	font-family: Cambria Math;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding-left:40px;
+	width: 790px;
+	line-height: 227.2727272727273%;
+}
+.p1{
+padding-top: 36px;
+}
+.p2{
+	padding-top: 16px;
+}
+.footer123{
+	padding-top:23px;
+}
+.footer2 img{
+	padding: 0 10px;
+}
+/*---------footer样式---------*/

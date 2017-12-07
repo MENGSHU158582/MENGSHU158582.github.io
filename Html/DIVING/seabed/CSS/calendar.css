@@ -1,0 +1,139 @@
+/*-----------通用样式------------*/
+.containt_left,.containt_right,.containt_right li,.meun_left,.meun p,.meun_right{
+	float: left;
+}
+li{
+	list-style: none;
+}
+/*-----------通用样式------------*/
+
+/*-----------header样式------------*/
+.btn4{
+	background-color: #333333;
+}
+.btn4 a{
+	color: #ffffff;
+}
+.btn1 a,.btn2 a,.btn3 a,.btn5 a,.btn6 a{
+	color: #333333;
+}
+/*-----------header样式------------*/
+
+
+/*-----------banner样式------------*/
+.banner_img{
+	background-image: url(../images/slide-3.jpg);
+	width: 940px;
+	height: 392px;
+	margin-left: 10px;
+}
+/*-----------banner样式------------*/
+
+
+/*-----------containt样式------------*/
+.containt_left{
+	width: 251px;
+	padding: 45px 41px 201px 47px;
+}
+.containt_left h1{
+	margin-bottom: 25px;
+}
+.containt_left h2{
+	margin-top: 10px;
+	margin-bottom: 9px;
+}
+.containt_left span{
+	color: #0043e4;
+}
+.containt_left p{
+	font-family: Courier;
+	color: #333333;
+	font-size: 12px;
+	letter-spacing: -1px;
+	line-height: 208.3333333333333%;
+}
+.button{
+	width: 76px;
+	margin-top: 26px;
+	padding: 1px 0px 3px 0px;
+	background-color: #0043e4;
+	text-align: center;
+}
+.button a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.containt_right{
+	width: 562px;
+	padding-top: 45px;
+}
+.containt_right h1{
+	margin-bottom: 10px;
+}
+.containt_right_p{
+	font-family: Lucida Bright;
+	color: #333333;
+	font-size: 12px;
+	line-height: 183.3333333333333%;
+}
+.meun{
+	width: 562px;
+	margin-top: 5px;
+	background-color: #0043e4;
+}
+.meun_left,.meun_right{
+	margin: 9px 0px;
+}
+.meun_left{
+	margin-left: 10px;
+}
+.meun p{
+	width: 518px;
+	margin-top: 7px;
+}
+.meun p,.nav_top li{
+	font-family: Lucida Bright;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+}
+.nav_top{
+	background-color: #000000;
+	height: 36px;
+}
+.nav_top li{
+	width: 80px; 
+	margin-top: 10px;
+}
+table{
+	border-left: 1px #c4ccc6 solid;
+}
+td{
+	vertical-align: top;
+	color: #a3a9a2;
+	width: 80px;
+	height: 120px;
+	border-right: 1px #c4ccc6 solid;
+	border-bottom: 1px #c4ccc6 solid;
+}
+.white,.white td{
+	color: #000000;! important
+	background-color: #ffffff;
+}
+.td_top{
+	margin-top: 12px;
+}
+.td_bottom{
+	margin-top: 10px;
+	font-family: Courier;
+	color: #333333;
+	font-size: 12px;
+	line-height: 150%;
+}
+table span{
+	font-weight: 600;
+}
+/*-----------containt样式------------*/
+
+/*-----------footer样式------------*/
+/*-----------footer样式------------*/
