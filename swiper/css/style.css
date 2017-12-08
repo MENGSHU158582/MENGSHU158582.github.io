@@ -30,14 +30,34 @@ body {
 
 .swiper-button-next {
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     top: auto;
     left: 50%;
     right: auto;
     transform: rotateZ(-90deg);
 }
 
-.s1 ,.s2{
+.bluebg {
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+}
+
+.bluebg img {
+    height: 70px;
+    position: absolute;
+}
+
+.bluebg img:nth-of-type(1) {
+    left: 0px;
+}
+
+.bluebg img:nth-of-type(2) {
+    left: -90px;
+}
+
+.s1, .s2 ,.s3, .s4, .s5,.s6,.s7{
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -93,48 +113,106 @@ body {
 
 .s1 .main .img9 {
     background: url(../img/9.png);
-    height: 16px;
-    width: 42%;
+    background-size: cover;
+    width: 207px;
+    height: 24px;
     margin: auto;
-    font-size: 12px;
-    background-size: 100% 100%;
     margin-top: 10px;
 }
-.s1 .footer{
+
+.s1 .footer {
     position: absolute;
-    top:70%;
-   margin-left: 20%;
+    top: 70%;
+    margin-left: 20%;
 }
+
 .s1 .footer h2 {
-color: aqua;
+    color: aqua;
     font-size: 18px;
     line-height: 25px;
 }
+
 .s1 .footer div {
     color: aqua;
     font-size: 16px;
 }
-.s2 h1{
-     color: aqua;
-  padding-top: 15%;
-    margin-bottom: 5%;
+
+.s2 {
+    color: #00f0c3;
 }
-.s2 div{
-    background-color:#fff;
-    opacity: 0.2;
-    border-radius: 10px;
-    margin: 0 5%;
-    font-size: 14px;
-    padding: 5% 5%;
-    line-height: 25px;
+
+.s2 h2 {
+    padding-top: 10%;
+    font-size: 24px;
+    padding-bottom: 30px;
 }
-.s2 span{
-    position: absolute;
-    background: url(../img/9.png);
+
+.s2 h2::before,
+.s2 h2::after {
+    content: "";
+    background-size: cover;
+    width: 83px;
     height: 20px;
-    width: 42%;
-    left:29%;
-    font-size: 16px;
-    background-size: 100% 100%;
-    top: 80%;
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+}
+
+.s2 h2:before {
+    background-image: url(../img/14.png);
+    left: 45px;
+}
+
+.s2 h2:after {
+    background-image: url(../img/13.png);
+    right: 45px;
+}
+
+.s2 h2 small {
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+    letter-spacing: 5px;
+}
+
+.s2 img {
+    width: 80%;
+}
+
+.s2 .main {
+    position: relative;
+    padding-top: 10px;
+}
+
+.s2 .text {
+    position: absolute;
+    width: 80%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+.s2 .text p {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.s2 span {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 120px;
+    height: 30px;
+    margin-left: -60px;
+    background: #03e7fd;
+    color: #000000;
+    line-height: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    top:95%;
 }
