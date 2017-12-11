@@ -57,7 +57,7 @@ body {
     left: -90px;
 }
 
-.s1, .s2 ,.s3, .s4, .s5,.s6,.s7{
+.s1, .s2, .s3, .s4, .s5, .s6, .s7 {
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -71,24 +71,28 @@ body {
     height: auto;
     top: 130px;
     left: 50px;
+    animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(2) {
     width: 65px;
     top: 90px;
     right: 40px;
+    animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(3) {
     width: 55px;
     bottom: 180px;
     left: 35px;
+    animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(4) {
     width: 50px;
     bottom: 210px;
     right: 50px;
+    animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(5) {
@@ -96,6 +100,7 @@ body {
     top: 25%;
     width: 60%;
     margin-left: -30%;
+    animation: tada infinite;
 }
 
 .s1 .main {
@@ -209,10 +214,15 @@ body {
     width: 120px;
     height: 30px;
     margin-left: -60px;
-    background: #03e7fd;
     color: #000000;
     line-height: 30px;
     border-radius: 20px;
     font-weight: bold;
-    top:95%;
+    top: 95%;
+    /*渐变代码*/
+    background: -webkit-linear-gradient(left, #00e7f7, #00ffa1); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #00e7f7, #00ffa1); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #00e7f7, #00ffa1); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #00e7f7, #00ffa1); /* 标准的语法 */
+
 }
