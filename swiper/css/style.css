@@ -28,6 +28,7 @@ body {
     background: #fff;
 }
 
+/*切换按钮*/
 .swiper-button-next {
     position: absolute;
     bottom: 3%;
@@ -37,6 +38,36 @@ body {
     transform: rotateZ(-90deg);
 }
 
+/*-------------音乐------------*/
+#mp3btn {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 100;
+    background-color: #403d3dd4;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    animation: music 2.5s infinite linear;
+}
+
+#mp3btn img {
+    width: 10px;
+}
+
+@keyframes music {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*底部蓝色背景*/
 .bluebg {
     height: 70px;
     position: absolute;
@@ -57,11 +88,13 @@ body {
     left: -90px;
 }
 
+/*星空大背景*/
 .s1, .s2, .s3, .s4, .s5, .s6, .s7 {
     background: url("../img/bj.png");
     height: 100%;
 }
 
+/*第一页*/
 .s1 .header img {
     position: absolute;
 }
@@ -71,28 +104,32 @@ body {
     height: auto;
     top: 130px;
     left: 50px;
-    animation: swing infinite;
+    /*animation: swing infinite;*/
 }
 
 .s1 .header img:nth-of-type(2) {
     width: 65px;
     top: 90px;
     right: 40px;
-    animation: swing infinite;
+    /*animation: swing infinite;*/
 }
 
 .s1 .header img:nth-of-type(3) {
     width: 55px;
     bottom: 180px;
     left: 35px;
-    animation: swing infinite;
+    /*animation: swing infinite;*/
 }
 
 .s1 .header img:nth-of-type(4) {
     width: 50px;
     bottom: 210px;
     right: 50px;
-    animation: swing infinite;
+    /*animation: swing infinite;*/
+}
+
+.swing {
+    transform-origin: center;
 }
 
 .s1 .header img:nth-of-type(5) {
@@ -100,7 +137,7 @@ body {
     top: 25%;
     width: 60%;
     margin-left: -30%;
-    animation: tada infinite;
+    /*animation: tada infinite;*/
 }
 
 .s1 .main {
@@ -142,11 +179,12 @@ body {
     font-size: 16px;
 }
 
-.s2 {
+/*第二页*/
+.s2, .s3, .s4, .s5, .s6, .s7 {
     color: #00f0c3;
 }
 
-.s2 h2 {
+.s2 h2, .s3 h2, .s4 h2, .s5 h2, .s6 h2, .s7 h2 {
     padding-top: 10%;
     font-size: 24px;
     padding-bottom: 30px;
@@ -225,4 +263,253 @@ body {
     background: -moz-linear-gradient(right, #00e7f7, #00ffa1); /* Firefox 3.6 - 15 */
     background: linear-gradient(to right, #00e7f7, #00ffa1); /* 标准的语法 */
 
+}
+
+/*第三页*/
+.s3 h2::before,
+.s3 h2::after {
+    content: "";
+    background-size: cover;
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+}
+
+.s3 h2:before {
+    background-image: url("../img/14.png");
+    left: 45px;
+}
+
+.s3 h2:after {
+    background-image: url("../img/13.png");
+    right: 45px;
+}
+
+.s3 h2 small {
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+    letter-spacing: 5px;
+}
+.s3 .img15 img{
+     width: 135px;
+     position: absolute;
+     top:35%;
+     left: 32%;
+ }
+.s3 .img15 p{
+    width: 135px;
+    position: absolute;
+    top: 43%;
+    left: 32%;
+    font-size: 28px;
+}
+.s3 .img16-1 img{
+    width: 60px;
+    position: absolute;
+    top: 40%;
+    left: 6%;
+}
+.s3 .img16-1 p{
+    width: 60px;
+    position: absolute;
+    top: 42%;
+    left: 6%;
+}
+
+.s3 .img16-2 img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 40%;
+    right: 6%;
+}
+.s3 .img16-2 p{
+    width: 60px;
+    position: absolute;
+    top: 42%;
+    right: 6%;
+}
+.s3 .img16-3 img{
+    width: 60px;
+    position: absolute;
+    top: 57%;
+    right: 21%;
+}
+.s3 .img16-3 p{
+    width: 60px;
+    position: absolute;
+    top: 59%;
+    right: 21%;
+}
+.s3 .img16-4 img{
+     width: 60px;
+     position: absolute;
+     top: 57%;
+     left: 21%;
+ }
+.s3 .img16-4 p{
+    width: 60px;
+    position: absolute;
+    top: 59%;
+    left: 21%;
+}
+.s3 .img16-5 img{
+      width: 60px;
+      position: absolute;
+      top: 25%;
+      right: 21%;
+  }
+.s3 .img16-5 p{
+    width: 60px;
+    position: absolute;
+    top: 27%;
+    right: 21%;
+}
+.s3 .img16-6 img{
+    width: 60px;
+    position: absolute;
+    top: 25%;
+    left: 21%;
+}
+.s3 .img16-6 p{
+    width: 60px;
+    position: absolute;
+    top: 27%;
+    left: 21%;
+}
+
+.s3 .footer p{
+    position: absolute;
+    top: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*第四页*/
+.s4 h2::before,
+.s4 h2::after {
+    content: "";
+    background-size: cover;
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+}
+
+.s4 h2:before {
+    background-image: url("../img/14.png");
+    left: 45px;
+}
+
+.s4 h2:after {
+    background-image: url("../img/13.png");
+    right: 45px;
+}
+
+.s4 h2 small {
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+    letter-spacing: 5px;
+}
+/*第五页*/
+.s5 h2::before,
+.s5 h2::after {
+    content: "";
+    background-size: cover;
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+}
+
+.s5 h2:before {
+    background-image: url("../img/14.png");
+    left: 45px;
+}
+
+.s5 h2:after {
+    background-image: url("../img/13.png");
+    right: 45px;
+}
+
+.s5 h2 small {
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+    letter-spacing: 5px;
+}
+/*第六页*/
+.s6 h2::before,
+.s6 h2::after {
+    content: "";
+    background-size: cover;
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+}
+
+.s6 h2:before {
+    background-image: url("../img/14.png");
+    left: 45px;
+}
+
+.s6 h2:after {
+    background-image: url("../img/13.png");
+    right: 45px;
+}
+
+.s6 h2 small {
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+    letter-spacing: 5px;
+}
+/*第七页*/
+.s7 h2::before,
+.s7 h2::after {
+    content: "";
+    background-size: cover;
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+}
+
+.s7 h2:before {
+    background-image: url("../img/14.png");
+    left: 45px;
+}
+
+.s7 h2:after {
+    background-image: url("../img/13.png");
+    right: 45px;
+}
+
+.s7 h2 small {
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+    letter-spacing: 5px;
 }
