@@ -36,6 +36,20 @@ body {
     left: 50%;
     right: auto;
     transform: rotateZ(-90deg);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    animation: nextbtn 1.5s infinite;
+}
+
+@keyframes nextbtn {
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom: 3%;
+        width: 0;
+    }
 }
 
 /*-------------音乐------------*/
@@ -81,11 +95,31 @@ body {
 }
 
 .bluebg img:nth-of-type(1) {
-    left: 0px;
+    left: 0;
+    animation: imgbtn1 2s alternate infinite;
 }
 
 .bluebg img:nth-of-type(2) {
     left: -90px;
+    animation: imgbtn2 2s alternate infinite;
+}
+
+@keyframes imgbtn1 {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 20px;
+    }
+}
+
+@keyframes imgbtn2 {
+    0% {
+        right: -20px;
+    }
+    100% {
+        left: 0;
+    }
 }
 
 /*星空大背景*/
@@ -293,113 +327,114 @@ body {
     display: block;
     letter-spacing: 5px;
 }
-.s3 .img15 img{
-     width: 135px;
-     position: absolute;
-     top:35%;
-     left: 32%;
- }
-.s3 .img15 p{
+
+.s3 .img15 img {
+    width: 135px;
+    position: absolute;
+    top: 35%;
+    left: 32%;
+}
+
+.s3 .img15 p {
     width: 135px;
     position: absolute;
     top: 43%;
     left: 32%;
     font-size: 28px;
 }
-.s3 .img16-1 img{
+
+.s3 .img16-1 img {
     width: 60px;
     position: absolute;
     top: 40%;
     left: 6%;
 }
-.s3 .img16-1 p{
+
+.s3 .img16-1 p {
     width: 60px;
     position: absolute;
     top: 42%;
     left: 6%;
 }
 
-.s3 .img16-2 img{
+.s3 .img16-2 img {
     position: absolute;
     width: 60px;
     height: 60px;
     top: 40%;
     right: 6%;
 }
-.s3 .img16-2 p{
+
+.s3 .img16-2 p {
     width: 60px;
     position: absolute;
     top: 42%;
     right: 6%;
 }
-.s3 .img16-3 img{
+
+.s3 .img16-3 img {
     width: 60px;
     position: absolute;
     top: 57%;
     right: 21%;
 }
-.s3 .img16-3 p{
+
+.s3 .img16-3 p {
     width: 60px;
     position: absolute;
     top: 59%;
     right: 21%;
 }
-.s3 .img16-4 img{
-     width: 60px;
-     position: absolute;
-     top: 57%;
-     left: 21%;
- }
-.s3 .img16-4 p{
+
+.s3 .img16-4 img {
+    width: 60px;
+    position: absolute;
+    top: 57%;
+    left: 21%;
+}
+
+.s3 .img16-4 p {
     width: 60px;
     position: absolute;
     top: 59%;
     left: 21%;
 }
-.s3 .img16-5 img{
-      width: 60px;
-      position: absolute;
-      top: 25%;
-      right: 21%;
-  }
-.s3 .img16-5 p{
+
+.s3 .img16-5 img {
+    width: 60px;
+    position: absolute;
+    top: 25%;
+    right: 21%;
+}
+
+.s3 .img16-5 p {
     width: 60px;
     position: absolute;
     top: 27%;
     right: 21%;
 }
-.s3 .img16-6 img{
+
+.s3 .img16-6 img {
     width: 60px;
     position: absolute;
     top: 25%;
     left: 21%;
 }
-.s3 .img16-6 p{
+
+.s3 .img16-6 p {
     width: 60px;
     position: absolute;
     top: 27%;
     left: 21%;
 }
 
-.s3 .footer p{
+.s3 .footer p {
     position: absolute;
     top: 70%;
     padding-left: 10%;
     padding-right: 10%;
     font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*第四页*/
 .s4 h2::before,
@@ -429,6 +464,140 @@ body {
     display: block;
     letter-spacing: 5px;
 }
+
+.s4 .main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.s4 .main .img20 img {
+    width: 85%;
+    top: 20%;
+    left: 8%;
+    position: absolute;
+}
+
+.s4 .main .text {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.s4 .main .text p {
+    display: inline-block;
+}
+
+.s4 .main .text .img24 img {
+    width: 35px;
+    position: absolute;
+    left: 18%;
+    top: 20px;
+}
+
+.s4 .main .text .img25 img {
+    width: 35px;
+    position: absolute;
+    left: 55%;
+    top: 20px;
+}
+
+.s4 .main .text p img {
+    width: 35px;
+}
+
+.s4 .main .text .img24 span {
+    position: absolute;
+    top: 22px;
+    left: 105px;
+    font-size: 22px;
+}
+
+.s4 .main .text .img25 span {
+    position: absolute;
+    top: 22px;
+    left: 245px;
+    font-size: 22px;
+
+}
+
+.s4 .main .text ul {
+    text-align: left;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+.s4 .main .text ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.s4 .main .text ul li .img5-1 {
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+
+.s4 .main .text ul li .img5-2 {
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 165px;
+    left: 30px;
+}
+
+.s4 .main .text ul li .img5-3 {
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 257px;
+    left: 30px;
+}
+
+.s4 .main .text ul li span {
+    color: white;
+}
+
+.s4 .main .text .img17 img {
+    width: 240px;
+    height: 15px;
+}
+
+.s4 .main .text .img21 img {
+    width: 130px;
+    height: 15px;
+}
+
+.s4 .main .text .img18 img {
+    width: 200px;
+    height: 15px;
+}
+
+.s4 .main .text .img22 img {
+    width: 110px;
+    height: 15px;
+}
+
+.s4 .main .text .img19 img {
+    width: 185px;
+    height: 15px;
+}
+
+.s4 .main .text .img23 img {
+    width: 110px;
+    height: 15px;
+}
+
+.footer p {
+    font-size: 16px;
+    padding: 0px 35px;
+}
+
 /*第五页*/
 .s5 h2::before,
 .s5 h2::after {
@@ -457,6 +626,87 @@ body {
     display: block;
     letter-spacing: 5px;
 }
+
+.s5 .main .main_img1 img, .s5 .main .main_img2 img, .s5 .main .main_img3 img, .s5 .main .main_img4 img {
+    width: 125px;
+}
+
+.s5 .main .main-bg img:nth-of-type(1) {
+    position: absolute;
+    top: 22%;
+    left: 9%;
+    width: 35%;
+    height: 29%;
+}
+
+.s5 .main .main-bg img:nth-of-type(2) {
+    position: absolute;
+    top: 22%;
+    left: 56%;
+    width: 35%;
+    height: 29%;
+}
+
+.s5 .main .main-bg img:nth-of-type(3) {
+    position: absolute;
+    top: 56%;
+    left: 9%;
+    width: 35%;
+    height: 29%;
+}
+
+.s5 .main .main-bg img:nth-of-type(4) {
+    position: absolute;
+    top: 56%;
+    left: 56%;
+    width: 35%;
+    height: 29%;
+}
+
+.s5 .main .main_img1 {
+    position: absolute;
+    top: 150px;
+    left: 35px;
+}
+
+.s5 .main .main_img2 {
+    position: absolute;
+    top: 150px;
+    right: 35px;
+}
+
+.s5 .main .main_img3 {
+    position: absolute;
+    left: 35px;
+    top: 380px;
+}
+
+.s5 .main .main_img4 {
+    position: absolute;
+    top: 380px;
+    right: 35px;
+}
+
+.s5 .main h3 {
+    font-size: 14px;
+}
+
+.s5 .main span {
+    left: 15px;
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    color: #000000;
+    line-height: 28px;
+    border-radius: 20px;
+    top: 103%;
+    /*渐变代码*/
+    background: -webkit-linear-gradient(left, #00e7f7, #00ffa1); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #00e7f7, #00ffa1); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #00e7f7, #00ffa1); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #00e7f7, #00ffa1); /* 标准的语法 */
+}
+
 /*第六页*/
 .s6 h2::before,
 .s6 h2::after {
@@ -485,6 +735,113 @@ body {
     display: block;
     letter-spacing: 5px;
 }
+
+.s6 .main-left img {
+    width: 35px;
+    position: absolute;
+}
+
+.s6 .main-left img:nth-of-type(1) {
+    top: 20%;
+    left: 10%;
+
+}
+
+.s6 .main-left img:nth-of-type(2) {
+    top: 40%;
+    left: 10%;
+
+}
+
+.s6 .main-left img:nth-of-type(3) {
+    top: 60%;
+    left: 10%;
+
+}
+
+.s6 ul li {
+    text-align: left;
+    list-style: none;
+}
+
+.s6 ul li:nth-of-type(1), .s6 ul li:nth-of-type(3), .s6 ul li:nth-of-type(5) {
+    color: black;
+}
+
+.s6 ul li:nth-of-type(1) img, .s6 ul li:nth-of-type(3) img, .s6 ul li:nth-of-type(5) img {
+    position: absolute;
+    width: 70%;
+    height: 30px;
+    left: 20%;
+}
+
+.s6 ul li:nth-of-type(1) img {
+    top: 20%;;
+}
+
+.s6 ul li:nth-of-type(3) img {
+    top: 40%;
+}
+
+.s6 ul li:nth-of-type(5) img {
+    top: 60%;
+}
+.s6 ul li:nth-of-type(1) p,.s6 ul li:nth-of-type(3) p,.s6 ul li:nth-of-type(5) p{
+    position: absolute;left: 25%;
+}
+.s6 ul li:nth-of-type(1) p {
+    top: 21%;
+
+}
+
+.s6 ul li:nth-of-type(3) p {
+    top: 41%;
+}
+
+.s6 ul li:nth-of-type(5) p {
+    top: 61%;
+}
+.s6 ul li:nth-of-type(2), .s6 ul li:nth-of-type(4), .s6 ul li:nth-of-type(6) {
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.s6 ul li:nth-of-type(2) img, .s6 ul li:nth-of-type(4) img, .s6 ul li:nth-of-type(6) img {
+    position: absolute;
+    width: 70%;
+    height: 80px;
+    left: 20%;
+}
+
+.s6 ul li:nth-of-type(2) img {
+    top: 26%;
+}
+
+.s6 ul li:nth-of-type(4) img {
+    top: 46%;
+}
+
+.s6 ul li:nth-of-type(6) img {
+    top: 66%;
+}
+
+.s6 ul li:nth-of-type(2) .text, .s6 ul li:nth-of-type(4) .text, .s6 ul li:nth-of-type(6) .text {
+    position: absolute;
+    left: 23%;
+}
+
+.s6 ul li:nth-of-type(2) .text {
+    top: 28%;
+}
+
+.s6 ul li:nth-of-type(4) .text {
+    top: 48%;;
+}
+
+.s6 ul li:nth-of-type(6) .text {
+    top: 68%;
+}
+
 /*第七页*/
 .s7 h2::before,
 .s7 h2::after {
