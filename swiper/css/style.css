@@ -896,6 +896,10 @@ body {
     border: 0;
 }
 .s7>p{
-   padding: 5px 40px;
+    padding: 5px 40px;
+    position: absolute;
+    bottom: 27%;
+    left: 3%;
+    font-size: 14px;
 
 }
