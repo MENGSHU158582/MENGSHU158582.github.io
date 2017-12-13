@@ -870,3 +870,29 @@ body {
     display: block;
     letter-spacing: 5px;
 }
+.s7 img {
+    width: 80%;
+}
+.s7 .forms{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.s7 .forms input{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    padding-left: 10px;
+}
+.s7 .forms p input[type=submit]{
+    width: 264px;
+    height: 50px;
+    color: #fff;
+    background-color: #00e7f7;
+    border: 0;
+}
+.s7>p{
+   padding: 5px 40px;
+
+}
