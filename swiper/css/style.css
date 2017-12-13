@@ -31,7 +31,7 @@ body {
 /*切换按钮*/
 .swiper-button-next {
     position: absolute;
-    bottom: 3%;
+    bottom: 2%;
     top: auto;
     left: 47%;
     right: auto;
@@ -46,11 +46,11 @@ body {
 
 @keyframes nextbtn {
     0% {
-        bottom: 3%;
+        bottom: 2%;
         opacity: 1;
     }
     100% {
-        bottom: 6%;
+        bottom: 4%;
         opacity: 0;
     }
 }
