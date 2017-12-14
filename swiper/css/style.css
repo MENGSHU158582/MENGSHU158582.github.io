@@ -525,7 +525,7 @@ body {
 .s4 .main .text ul {
     text-align: left;
     margin-left: 65px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .s4 .main .text ul li {
@@ -537,7 +537,7 @@ body {
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 70px;
+    top: 57px;
     left: 30px;
 }
 
@@ -546,7 +546,7 @@ body {
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 143px;
+    top: 148px;
     left: 30px;
 }
 
@@ -555,7 +555,7 @@ body {
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 215px;
+    top: 239px;
     left: 30px;
 }
 
@@ -600,7 +600,7 @@ body {
 .footer p {
     font-size: 16px;
     position: absolute;
-    bottom: 23%;
+    top: 70%;
     left: 12%;
     right: 12%;
 }
