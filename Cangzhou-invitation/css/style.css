@@ -1,0 +1,58 @@
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
+/*切换按钮*/
+.swiper-button-next {
+    position: absolute;
+    bottom: 2%;
+    top: auto;
+    left: 47%;
+    right: auto;
+    transform: rotateZ(-90deg);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    animation: nextbtn 1.5s infinite;
+    opacity: 1;
+    z-index: 100;
+}
+
+@keyframes nextbtn {
+    0% {
+        bottom: 2%;
+        opacity: 1;
+    }
+    100% {
+        bottom: 4%;
+        opacity: 0;
+    }
+}
+/*-------------音乐------------*/
+#mp3btn {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 100;
+    background-color: #403d3dd4;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    animation: music 2.5s infinite linear;
+}
+
+#mp3btn img {
+    width: 10px;
+}
+
+@keyframes music {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
