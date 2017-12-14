@@ -606,114 +606,102 @@ body {
 }
 
 /*年度之星*/
+.s5{
+    color: #00f0c3;
+}
+.s5 h2{
+    padding-top: 10%;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
 .s5 h2::before,
-.s5 h2::after {
+.s5 h2::after{
     content: "";
     background-size: cover;
     width: 83px;
     height: 20px;
     display: inline-block;
     position: absolute;
-    top: 35%;
+    top:45px;
 }
-
-.s5 h2:before {
-    background-image: url("../img/14.png");
-    left: 10%;
+.s5 h2:before{
+    background-image: url(../img/14.png);
+    left: 45px;
 }
-
-.s5 h2:after {
-    background-image: url("../img/13.png");
-    right: 10%;
+.s5 h2:after{
+    background-image: url(../img/13.png);
+    right: 45px;
 }
-
-.s5 h2 small {
+.s5 h2 small{
     margin-top: 10px;
     font-size: 14px;
     display: block;
     letter-spacing: 5px;
 }
-
-.s5 .main .main_img1 img, .s5 .main .main_img2 img, .s5 .main .main_img3 img, .s5 .main .main_img4 img {
-    width: 125px;
+.s5 div img{
+    width: 50%;
 }
-
-.s5 .main .main-bg img:nth-of-type(1) {
-    position: absolute;
-    top: 18%;
-    left: 10%;
-    width: 35%;
-    height: 30%;
+.s5 div div h4{
+    font-size: 12px;
+    margin-top: -10px;
 }
-
-.s5 .main .main-bg img:nth-of-type(2) {
-    position: absolute;
-    top: 18%;
-    right: 10%;
-    width: 35%;
-    height: 30%;
-}
-
-.s5 .main .main-bg img:nth-of-type(3) {
-    position: absolute;
-    top: 56%;
-    left: 10%;
-    width: 35%;
-    height: 30%;
-}
-
-.s5 .main .main-bg img:nth-of-type(4) {
-    position: absolute;
-    top: 56%;
-    right: 10%;
-    width: 35%;
-    height: 30%;
-}
-
-.s5 .main .main_img1 {
-    position: absolute;
-    top: 20%;
-    left: 11%;
-}
-
-.s5 .main .main_img2 {
-    position: absolute;
-    top: 20%;
-    right: 12%;
-}
-
-.s5 .main .main_img3 {
-    position: absolute;
-    left: 11%;
-    top: 58%;
-}
-
-.s5 .main .main_img4 {
-    position: absolute;
-    top: 58%;
-    right: 12%;
-}
-
-.s5 .main h3 {
+.s5 div div span{
     font-size: 14px;
-}
-
-.s5 .main span {
-    left: 15px;
     position: absolute;
-    width: 100px;
-    height: 28px;
-    color: #000000;
-    line-height: 28px;
-    border-radius: 20px;
-    top: 103%;
-    /*渐变代码*/
+    bottom: -16%;
+    left: 50%;
+    width: 80px;
+    height: 20px;
+    margin-left: -40px;
     background: -webkit-linear-gradient(left, #00e7f7, #00ffa1); /* Safari 5.1 - 6.0 */
     background: -o-linear-gradient(right, #00e7f7, #00ffa1); /* Opera 11.1 - 12.0 */
     background: -moz-linear-gradient(right, #00e7f7, #00ffa1); /* Firefox 3.6 - 15 */
     background: linear-gradient(to right, #00e7f7, #00ffa1); /* 标准的语法 */
+    color: #000000;
+    line-height: 20px;
+    border-radius: 20px;
+    font-weight: bold;
 }
-
+.s5 div:nth-of-type(1){
+    position: absolute;
+    top: 20%;
+    left: -10%;
+}
+.s5 div:nth-of-type(1) div{
+    position: absolute;
+    top: 0%;
+    left: 2%;
+}
+.s5 div:nth-of-type(2){
+    position: absolute;
+    top: 20%;
+    right: -10%;
+}
+.s5 div:nth-of-type(2) div{
+    position: absolute;
+    top: 0%;
+    left: 2%;
+}
+.s5 div:nth-of-type(3){
+    position: absolute;
+    top: 55%;
+    left: -10%;
+}
+.s5 div:nth-of-type(3) div{
+    position: absolute;
+    top: 0%;
+    left: 2%;
+}
+.s5 div:nth-of-type(4){
+    position: absolute;
+    top: 55%;
+    right: -10%;
+}
+.s5 div:nth-of-type(4) div{
+    position: absolute;
+    top: 0%;
+    left: 2%;
+}
 /*年会流程*/
 .s6 h2::before,
 .s6 h2::after {
