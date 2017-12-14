@@ -224,7 +224,7 @@ body {
 .s2 h2, .s3 h2, .s4 h2, .s5 h2, .s6 h2, .s7 h2 {
     padding-top: 10%;
     font-size: 24px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .s2 h2::before,
