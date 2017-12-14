@@ -480,7 +480,7 @@ body {
 
 .s4 .main .text {
     position: relative;
-    top: 0;
+    top: -15px;
     left: 0;
 }
 
@@ -508,16 +508,16 @@ body {
 
 .s4 .main .text .img24 span {
     position: absolute;
-    top: 22px;
+    top: 25px;
     left: 27%;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .s4 .main .text .img25 span {
     position: absolute;
-    top: 22px;
-    right: 17%;
-    font-size: 22px;
+    top: 25px;
+    right: 20%;
+    font-size: 18px;
     color: #00e7f7;
 
 }
@@ -546,7 +546,7 @@ body {
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 148px;
+    top: 126px;
     left: 30px;
 }
 
@@ -555,7 +555,7 @@ body {
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 239px;
+    top: 200px;
     left: 30px;
 }
 
@@ -889,7 +889,7 @@ body {
 .s7 .forms {
     position: absolute;
     top: 25%;
-    left: 15%;
+    left: 13%;
 }
 
 .s7 .forms input {
@@ -911,7 +911,7 @@ body {
 .s7 > p {
     padding: 5px 40px;
     position: absolute;
-    top: 68%;
+    top: 73%;
     left: 3%;
     font-size: 14px;
 
