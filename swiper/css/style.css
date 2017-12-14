@@ -434,7 +434,8 @@ body {
 .s3 .footer p {
     position: absolute;
     top: 70%;
-
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 15px;
 }
 
