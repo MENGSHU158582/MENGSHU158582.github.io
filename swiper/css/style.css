@@ -889,19 +889,19 @@ body {
 .s7 .forms {
     position: absolute;
     top: 25%;
-    left: 13%;
+    left: 10%;
+    width: 80%;
 }
 
 .s7 .forms input {
-    width: 250px;
+    width: 80%;
     height: 50px;
     margin-bottom: 12px;
-    font-size: 22px;
     padding-left: 10px;
 }
 
 .s7 .forms p input[type=submit] {
-    width: 264px;
+    width: 84%;
     height: 50px;
     color: #fff;
     background-color: #00e7f7;
@@ -909,10 +909,9 @@ body {
 }
 
 .s7 > p {
-    padding: 5px 40px;
     position: absolute;
-    top: 73%;
-    left: 3%;
+    top: 65%;
+    left: 17%;
     font-size: 14px;
-
+    width: 65%;
 }
