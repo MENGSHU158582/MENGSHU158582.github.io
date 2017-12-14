@@ -131,7 +131,7 @@ body {
     height: 100%;
 }
 
-/*第一页*/
+/*首页*/
 .s1 .header img {
     position: absolute;
 }
@@ -202,7 +202,7 @@ body {
 .s1 .footer {
     position: absolute;
     top: 70%;
-    margin-left: 20%;
+   left: 25%;
 }
 
 .s1 .footer h2 {
@@ -216,7 +216,7 @@ body {
     font-size: 16px;
 }
 
-/*第二页*/
+/*领导致辞*/
 .s2, .s3, .s4, .s5, .s6, .s7 {
     color: #00f0c3;
 }
@@ -235,17 +235,17 @@ body {
     height: 20px;
     display: inline-block;
     position: absolute;
-    top: 45px;
+    top: 35%;
 }
 
 .s2 h2:before {
     background-image: url(../img/14.png);
-    left: 45px;
+    left:10%;
 }
 
 .s2 h2:after {
     background-image: url(../img/13.png);
-    right: 45px;
+    right:10%;
 }
 
 .s2 h2 small {
@@ -302,7 +302,7 @@ body {
 
 }
 
-/*第三页*/
+/*企业宗旨*/
 .s3 h2::before,
 .s3 h2::after {
     content: "";
@@ -311,17 +311,17 @@ body {
     height: 20px;
     display: inline-block;
     position: absolute;
-    top: 45px;
+    top: 35%;
 }
 
 .s3 h2:before {
     background-image: url("../img/14.png");
-    left: 45px;
+    left:10%;
 }
 
 .s3 h2:after {
     background-image: url("../img/13.png");
-    right: 45px;
+    right: 10%;
 }
 
 .s3 h2 small {
@@ -439,7 +439,7 @@ body {
     font-size: 15px;
 }
 
-/*第四页*/
+/*发展数据*/
 .s4 h2::before,
 .s4 h2::after {
     content: "";
@@ -448,17 +448,17 @@ body {
     height: 20px;
     display: inline-block;
     position: absolute;
-    top: 45px;
+    top:35%;
 }
 
 .s4 h2:before {
     background-image: url("../img/14.png");
-    left: 45px;
+    left: 10%;
 }
 
 .s4 h2:after {
     background-image: url("../img/13.png");
-    right: 45px;
+    right: 10%;
 }
 
 .s4 h2 small {
@@ -512,15 +512,16 @@ body {
 .s4 .main .text .img24 span {
     position: absolute;
     top: 22px;
-    left: 105px;
+    left: 27%;
     font-size: 22px;
 }
 
 .s4 .main .text .img25 span {
     position: absolute;
     top: 22px;
-    left: 245px;
+    right: 17%;
     font-size: 22px;
+     color: #00e7f7;
 
 }
 
@@ -595,13 +596,18 @@ body {
     width: 110px;
     height: 15px;
 }
-
+.s4 .main .text .img21 p,.s4 .main .text .img22 p,.s4 .main .text .img23 p{
+    color: #00e7f7;
+}
 .footer p {
     font-size: 16px;
-    padding: 0px 35px;
+    position: absolute;
+    bottom: 23%;
+    left:12%;
+    right: 12%;
 }
 
-/*第五页*/
+/*年度之星*/
 .s5 h2::before,
 .s5 h2::after {
     content: "";
@@ -610,17 +616,17 @@ body {
     height: 20px;
     display: inline-block;
     position: absolute;
-    top: 45px;
+   top:35%;
 }
 
 .s5 h2:before {
     background-image: url("../img/14.png");
-    left: 45px;
+    left:10%;
 }
 
 .s5 h2:after {
     background-image: url("../img/13.png");
-    right: 45px;
+    right:10%;
 }
 
 .s5 h2 small {
@@ -636,58 +642,58 @@ body {
 
 .s5 .main .main-bg img:nth-of-type(1) {
     position: absolute;
-    top: 22%;
-    left: 9%;
+    top: 18%;
+    left: 10%;
     width: 35%;
-    height: 29%;
+    height: 30%;
 }
 
 .s5 .main .main-bg img:nth-of-type(2) {
     position: absolute;
-    top: 22%;
-    left: 56%;
+    top: 18%;
+    right:10%;
     width: 35%;
-    height: 29%;
+    height: 30%;
 }
 
 .s5 .main .main-bg img:nth-of-type(3) {
     position: absolute;
     top: 56%;
-    left: 9%;
+    left: 10%;
     width: 35%;
-    height: 29%;
+    height: 30%;
 }
 
 .s5 .main .main-bg img:nth-of-type(4) {
     position: absolute;
     top: 56%;
-    left: 56%;
+    right: 10%;
     width: 35%;
-    height: 29%;
+    height: 30%;
 }
 
 .s5 .main .main_img1 {
     position: absolute;
-    top: 150px;
-    left: 35px;
+    top: 20%;
+    left: 11%;
 }
 
 .s5 .main .main_img2 {
     position: absolute;
-    top: 150px;
-    right: 35px;
+    top:  20%;
+    right: 12%;
 }
 
 .s5 .main .main_img3 {
     position: absolute;
-    left: 35px;
-    top: 380px;
+    left: 11%;
+    top: 58%;
 }
 
 .s5 .main .main_img4 {
     position: absolute;
-    top: 380px;
-    right: 35px;
+    top: 58%;
+    right: 12%;
 }
 
 .s5 .main h3 {
@@ -710,7 +716,7 @@ body {
     background: linear-gradient(to right, #00e7f7, #00ffa1); /* 标准的语法 */
 }
 
-/*第六页*/
+/*年会流程*/
 .s6 h2::before,
 .s6 h2::after {
     content: "";
@@ -719,17 +725,17 @@ body {
     height: 20px;
     display: inline-block;
     position: absolute;
-    top: 45px;
+    top:35%;
 }
 
 .s6 h2:before {
     background-image: url("../img/14.png");
-    left: 45px;
+    left: 10%;
 }
 
 .s6 h2:after {
     background-image: url("../img/13.png");
-    right: 45px;
+    right:10%;
 }
 
 .s6 h2 small {
@@ -845,7 +851,7 @@ body {
     top: 68%;
 }
 
-/*第七页*/
+/*诚挚邀请*/
 .s7 h2::before,
 .s7 h2::after {
     content: "";
@@ -854,17 +860,17 @@ body {
     height: 20px;
     display: inline-block;
     position: absolute;
-    top: 45px;
+    top: 35%;
 }
 
 .s7 h2:before {
     background-image: url("../img/14.png");
-    left: 45px;
+    left: 10%;
 }
 
 .s7 h2:after {
     background-image: url("../img/13.png");
-    right: 45px;
+    right: 10%;
 }
 
 .s7 h2 small {
@@ -898,7 +904,7 @@ body {
 .s7>p{
     padding: 5px 40px;
     position: absolute;
-    bottom: 27%;
+    bottom: 30%;
     left: 3%;
     font-size: 14px;
 
