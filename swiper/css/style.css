@@ -202,7 +202,7 @@ body {
 .s1 .footer {
     position: absolute;
     top: 70%;
-    left: 25%;
+    left: 22%;
 }
 
 .s1 .footer h2 {
@@ -261,7 +261,6 @@ body {
 
 .s2 .main {
     position: relative;
-    padding-top: 10px;
 }
 
 .s2 .text {
@@ -531,7 +530,6 @@ body {
 
 .s4 .main .text ul li {
     list-style: none;
-    margin-bottom: 20px;
 }
 
 .s4 .main .text ul li .img5-1 {
@@ -548,7 +546,7 @@ body {
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 165px;
+    top: 143px;
     left: 30px;
 }
 
@@ -557,7 +555,7 @@ body {
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 257px;
+    top: 215px;
     left: 30px;
 }
 
