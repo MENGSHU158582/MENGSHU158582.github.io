@@ -222,11 +222,11 @@ body {
 }
 .s2 .main p{
     padding-top: 40%;
-    width: 90%;
-    margin-left: 5%;
+    width: 85%;
+    margin-left: 9%;
     text-align: left;
-    font-family:"楷体";
-    font-size: 20px;
+    font-family: "楷体";
+    font-size: 16px;
 }
 .s2 .footer img:nth-of-type(1){
     position: absolute;
@@ -320,11 +320,11 @@ body {
 .s3 .main ul{
     text-align: left;
     list-style: none;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "楷体";
     width: 70%;
     position: absolute;
-    top: 24%;
+    top: 25%;
     left: 14%;
 }
 .s3 .footer .img1{
