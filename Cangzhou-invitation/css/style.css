@@ -96,27 +96,40 @@ body {
 .s1 .main img:nth-of-type(2){
     position: absolute;
     width: 50%;
-    top: 9%;
+    top: 5%;
     left: 13%;
 }
-.s1 .footer img:nth-of-type(1){
+
+
+.chuan, .chuan2 {
     position: absolute;
     width: 40%;
     top: 75%;
-    animation: ship 5s alternate infinite;
+    animation: ship1 5s alternate infinite;
     z-index: 99;
+    transition: 1s;
 }
-
+@keyframes ship1 {
+    0% {
+        left: -35%;
+        opacity: 0;
+    }
+    100% {
+        left: 35%;
+        opacity: 1;
+    }
+}
 @keyframes ship {
     0% {
         left: 35%;
-
     }
     100% {
         left: 80%;
 
     }
 }
+
+
 .s1 .footer img:nth-of-type(2){
     position: absolute;
     width: 10%;
@@ -227,7 +240,6 @@ body {
 @keyframes fish2 {
     0% {
         top: 90%;
-
     }
     100% {
         top: 98%;
@@ -298,9 +310,6 @@ body {
     margin-left: -5%;
     margin-top: 25%;
 }
-
-
-
 .s3 .footer .img1{
     position: absolute;
 
@@ -321,11 +330,24 @@ body {
     top: 75%;
     left: 43%;
 }
-
+.s3 .footer div .zhuan{
+    animation: zhuan 2s infinite linear;
+}
+@keyframes zhuan {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 
 .s3 .footer .img2{
     position: absolute;
-    left:25%;
+    left:20%;
 
 }
 .s3 .footer .img2 img:nth-of-type(1){
@@ -348,7 +370,7 @@ body {
 
 .s3 .footer .img3{
     position: absolute;
-    left:50%;
+    left:40%;
 
 }
 .s3 .footer .img3 img:nth-of-type(1){
@@ -370,10 +392,9 @@ body {
 
 
 
-
 .s3 .footer .img4{
     position: absolute;
-    left:50%;
+    left:60%;
 
 }
 .s3 .footer .img4 img:nth-of-type(1){
@@ -394,5 +415,120 @@ body {
 }
 
 
+/*联系我们*/
+.s4{
+    background: url("../img/bg1.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.s4 .header img:nth-of-type(1){
+    width: 80%;
+    margin-left: -17%;
+    margin-top: -10%;
+}
 
+.s4 .main input{
+    border: 1px solid #000000;
+    width: 80%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 5px;
+}
+.s4 .main input[type="submit"]{
+    border: 1px solid #000000;
+    width: 82%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    background-color: black;
+    color: white;
+}
+.s4 .header img:nth-of-type(2){
+    position: absolute;
+    width: 50%;
+    top: 9%;
+    left: 13%;
+}
+/*.s4 .footer img:nth-of-type(1){*/
+    /*position: absolute;*/
+    /*width: 40%;*/
+    /*top: 75%;*/
+    /*animation: ship 5s alternate infinite;*/
+    /*z-index: 99;*/
+/*}*/
+
+/*@keyframes ship {*/
+    /*0% {*/
+        /*left: 35%;*/
+
+    /*}*/
+    /*100% {*/
+        /*left: 80%;*/
+
+    /*}*/
+/*}*/
+.s4 .footer img:nth-of-type(2){
+    position: absolute;
+    width: 10%;
+    top: 85%;
+    animation: fish1 1.5s alternate infinite;
+}
+@keyframes fish1 {
+    0% {
+        left: 20%;
+
+    }
+    100% {
+        left: 30%;
+
+    }
+}
+.s4 .footer img:nth-of-type(3){
+    position: absolute;
+    width: 15%;
+    top: 85%;
+    left: 60%;
+    animation: fish2 3s alternate infinite;
+}
+@keyframes fish2 {
+    0% {
+        top: 85%;
+
+    }
+    100% {
+        top: 98%;
+
+    }
+}
+.s4 .footer img:nth-of-type(4){
+    position: absolute;
+    width: 7%;
+    top: 85%;
+    animation: fish3 2s alternate infinite;
+}
+@keyframes fish3 {
+    0% {
+        left: 70%;
+
+    }
+    100% {
+        left: 80%;
+
+    }
+}
+.s4 .footer img:nth-of-type(5){
+    position: absolute;
+    width: 7%;
+    top: 78%;
+    animation: fish4 3s alternate infinite;
+}
+@keyframes fish4 {
+    0% {
+        left: 80%;
+
+    }
+    100% {
+        left: 90%;
+
+    }
+}
 
