@@ -220,7 +220,14 @@ body {
     top: 9%;
     left: 13%;
 }
-
+.s2 .main p{
+    padding-top: 40%;
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    font-family:"楷体";
+    font-size: 20px;
+}
 .s2 .footer img:nth-of-type(1){
     position: absolute;
     top: 83%;
@@ -309,6 +316,16 @@ body {
     width: 100%;
     margin-left: -5%;
     margin-top: 25%;
+}
+.s3 .main ul{
+    text-align: left;
+    list-style: none;
+    font-size: 20px;
+    font-family: "楷体";
+    width: 70%;
+    position: absolute;
+    top: 24%;
+    left: 14%;
 }
 .s3 .footer .img1{
     position: absolute;
@@ -414,7 +431,13 @@ body {
     left: 43%;
 }
 
-
+.s3 .footer p{
+    position:absolute ;
+    width: 25%;
+    margin-left: 37%;
+    margin-top: -108%;
+    font-weight: bolder
+}
 /*联系我们*/
 .s4{
     background: url("../img/bg1.jpg");
