@@ -222,8 +222,8 @@ body {
 }
 .s2 .main p{
     padding-top: 40%;
-    width: 85%;
-    margin-left: 9%;
+    width: 80%;
+    margin-left: 10%;
     text-align: left;
     font-family: "楷体";
     font-size: 14px;
@@ -325,7 +325,7 @@ body {
     font-family: "楷体";
     width: 70%;
     position: absolute;
-    top: 25%;
+    top: 27%;
     left: 14%;
 }
 .s3 .footer .img1{
