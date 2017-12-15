@@ -429,15 +429,15 @@ body {
 
 .s4 .main input{
     border: 1px solid #000000;
-    width: 80%;
-    height: 3rem;
+    width: 75%;
+    height: 5vh;
     margin-bottom: 1rem;
     padding-left: 5px;
 }
 .s4 .main input[type="submit"]{
     border: 1px solid #000000;
-    width: 82%;
-    height: 3rem;
+    width: 77%;
+    height: 5vh;
     margin-bottom: 1rem;
     background-color: black;
     color: white;
@@ -448,24 +448,6 @@ body {
     top: 9%;
     left: 13%;
 }
-/*.s4 .footer img:nth-of-type(1){*/
-    /*position: absolute;*/
-    /*width: 40%;*/
-    /*top: 75%;*/
-    /*animation: ship 5s alternate infinite;*/
-    /*z-index: 99;*/
-/*}*/
-
-/*@keyframes ship {*/
-    /*0% {*/
-        /*left: 35%;*/
-
-    /*}*/
-    /*100% {*/
-        /*left: 80%;*/
-
-    /*}*/
-/*}*/
 .s4 .footer img:nth-of-type(2){
     position: absolute;
     width: 10%;
