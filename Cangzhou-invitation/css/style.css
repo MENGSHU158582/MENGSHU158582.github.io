@@ -87,11 +87,17 @@ body {
     background-size: cover;
     height: 100%;
 }
-.s1 .main img{
+.s1 .main img:nth-of-type(1){
     width: 55%;
     left: 20%;
     top: 15%;
     position: absolute;
+}
+.s1 .main img:nth-of-type(2){
+    position: absolute;
+    width: 50%;
+    top: 9%;
+    left: 13%;
 }
 .s1 .footer img:nth-of-type(1){
     position: absolute;
@@ -100,6 +106,7 @@ body {
     animation: ship 5s alternate infinite;
     z-index: 99;
 }
+
 @keyframes ship {
     0% {
         left: 35%;
@@ -181,3 +188,211 @@ body {
     background-size: cover;
     height: 100%;
 }
+.s2 .header h2{
+    font-family:"楷体";
+    position: absolute;
+    top: 11%;
+    left: 36%;
+
+}
+.s2 .main img:nth-of-type(1){
+    position: absolute;
+    width: 40%;
+    top: 5%;
+    left: 31%;
+}
+.s2 .main img:nth-of-type(2){
+    position: absolute;
+    width: 50%;
+    top: 9%;
+    left: 13%;
+}
+
+.s2 .footer img:nth-of-type(1){
+    position: absolute;
+    top: 83%;
+    left: 10%;
+    width: 80%;
+    z-index: 99;
+}
+
+
+.s2 .footer img:nth-of-type(2){
+    position: absolute;
+    width: 12%;
+    top: 85%;
+    left: 45%;
+    animation: fish2 3s alternate infinite;
+}
+@keyframes fish2 {
+    0% {
+        top: 90%;
+
+    }
+    100% {
+        top: 98%;
+
+    }
+}
+.s2 .footer img:nth-of-type(3){
+    position: absolute;
+    width: 7%;
+    top: 90%;
+    animation: fish3 2s alternate infinite;
+}
+@keyframes fish3 {
+    0% {
+        left: 60%;
+
+    }
+    100% {
+        left: 65%;
+
+    }
+}
+.s2 .footer img:nth-of-type(4){
+    position: absolute;
+    width: 7%;
+    top: 82%;
+    animation: fish4 3s alternate infinite;
+}
+@keyframes fish4 {
+    0% {
+        left: 65%;
+
+    }
+    100% {
+        left: 75%;
+
+    }
+}
+
+
+/*活动详情*/
+.s3{
+    background: url("../img/bg2.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.s3 .header h2{
+    font-family:"楷体";
+    position: absolute;
+    top: 11%;
+    left: 36%;
+
+}
+.s3 .main img:nth-of-type(1){
+    position: absolute;
+    width: 40%;
+    top: 5%;
+    left: 31%;
+}
+.s3 .main img:nth-of-type(2){
+    position: absolute;
+    width: 50%;
+    top: 9%;
+    left: 13%;
+}
+.s3 .main img:nth-of-type(3){
+    width: 100%;
+    margin-left: -5%;
+    margin-top: 25%;
+}
+
+
+
+.s3 .footer .img1{
+    position: absolute;
+
+}
+.s3 .footer .img1 img:nth-of-type(1){
+    width: 30%;
+    position: absolute;
+    margin-top: -13%;
+    margin-left: 7%;
+}
+.s3 .footer .img1 img:nth-of-type(2){
+    width: 45%;
+    position: relative;
+}
+.s3 .footer .img1 img:nth-of-type(3){
+    width: 15%;
+    position: absolute;
+    top: 75%;
+    left: 43%;
+}
+
+
+.s3 .footer .img2{
+    position: absolute;
+    left:25%;
+
+}
+.s3 .footer .img2 img:nth-of-type(1){
+    width: 30%;
+    position: absolute;
+    margin-top: -13%;
+    margin-left: 7%;
+}
+.s3 .footer .img2 img:nth-of-type(2){
+    width: 45%;
+    position: relative;
+}
+.s3 .footer .img2 img:nth-of-type(3){
+    width: 15%;
+    position: absolute;
+    top: 75%;
+    left: 43%;
+}
+
+
+.s3 .footer .img3{
+    position: absolute;
+    left:50%;
+
+}
+.s3 .footer .img3 img:nth-of-type(1){
+    width: 30%;
+    position: absolute;
+    margin-top: -13%;
+    margin-left: 7%;
+}
+.s3 .footer .img3 img:nth-of-type(2){
+    width: 45%;
+    position: relative;
+}
+.s3 .footer .img3 img:nth-of-type(3){
+    width: 15%;
+    position: absolute;
+    top: 75%;
+    left: 43%;
+}
+
+
+
+
+.s3 .footer .img4{
+    position: absolute;
+    left:50%;
+
+}
+.s3 .footer .img4 img:nth-of-type(1){
+    width: 30%;
+    position: absolute;
+    margin-top: -13%;
+    margin-left: 7%;
+}
+.s3 .footer .img4 img:nth-of-type(2){
+    width: 45%;
+    position: relative;
+}
+.s3 .footer .img4 img:nth-of-type(3){
+    width: 15%;
+    position: absolute;
+    top: 75%;
+    left: 43%;
+}
+
+
+
+
